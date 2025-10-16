@@ -58,7 +58,7 @@ var (
 	initResourcesOnce sync.Once
 )
 
-const DEFAULT_RELOAD_INTERVAL = 10
+const DEFAULT_RELOAD_INTERVAL = 300
 
 func init() {
 	logger = otelslog.NewLogger("product-catalog")
